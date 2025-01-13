@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .container {
     max-width: 1300px;
     margin: 0 auto; 
     padding: 0 15px; 
   }
-
+h1,h2,h3,h4,h5,p{
+    font-family: "Inter", sans-serif;
+}
 
   .header {
     background: url(assets/banner.jpg);
@@ -16,12 +19,22 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
+     position: relative;
+
+
   }
 
 /* navbar */
 
-
+/* .navbar{
+    position: fixed;
+    top: 0;      
+    left: 0;       
+    width: 100%;   
+    z-index: 1000;
+  
+} */
 
 .nav-content{
     display: flex;
@@ -52,40 +65,35 @@
 
 /* banner */
 
-.banner{
-    background: url(assets/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-}
+
 .banner-leftcolumn h2{
-    font-family: "Inter", serif;
-    font-size: 55px;
+ 
+    font-size: 60px;
     width: 600px;
-    padding-top: 200px;
+    padding-top: 170px;
+
 }
 .banner-leftcolumn p{
     font-family: "Inter", serif;
-    font-size: 16px;
+    font-size: 18px;
     width: 580px;
     line-height: 25px;
     padding-top: 20px;
+  
 }
 .banner-btns{
     display: flex;
-    gap: 30px;
+    gap: 35px;
     padding-top: 25px;
 }
 .banner-btnone{
     background-color:#7C3AED ;
 color: white;
     width: 110px;
-    height: 42px;
+    height: 48px;
     border-radius: 8px;
     border: none;
-    font-family: "Inter", serif;
+
 }
 .banner-btntwo{
     border: none;
@@ -97,4 +105,85 @@ color: white;
     color: #7C3AED;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+}
+.banner-row{
+    display: flex;
+    gap: 220px;
+    width: 100%;
+    
+}
+.banner-rightcolumn{
+  
+    width: 100%;
+    height: 100%;
+}
+.banner-rightcolumn img{
+    position: absolute;
+    top: 13%; 
+    left: 63%;
+    object-fit: cover;
+    width: 370px;
+    height: auto;
+   padding-top: 50px;
+}
+
+
+
+/* ///company-logos */
+.company-logos{
+    padding-top: 110px;
+}
+.cmpny-logos-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.cmpny-logos-list ul li{
+    list-style: none;
+}
+.logos-line {
+    width: 100%;
+    height: 2px; 
+    background-color: #cccccc38;
+    margin: 50px 0; 
+  }
+  
+/* ////// */
+
+/* //tailor */
+.tailormade{
+    padding-top: 50px;
+}
+.tailormade-head h1{
+    font-family: "Inter", sans-serif;
+    font-size: 47px;
+    text-align: center;
+}.tailormade-head p{
+ 
+    font-size: 18px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.tailormade-bottom{
+    padding-top: 70px;
+}
+.tailormade-bottom-up{
+    display: flex;
+    text-align: center;
+}
+.tailormade-bottom-up .one{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.tailormade-bottom-up .one img{
+    width: 32px;
+}
+.tailormade-bottom-up .one h3{
+
 }
