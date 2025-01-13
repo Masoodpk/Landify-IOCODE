@@ -239,6 +239,7 @@ font-size: 28px;
        }
        .real-rightcolumn{
         width: 50%;
+        padding-top: 95px;
        }
 
        .real-leftcolumn-top{
@@ -266,6 +267,7 @@ font-size: 28px;
 display: flex;
 flex-direction: column;
 gap: 110px;
+padding-left: 160px;
     }
     .real-leftcolumn-bottom {
         background-color: white;
@@ -274,6 +276,7 @@ gap: 110px;
         padding: 23px 0px 23px 23px;
         margin-left: 165px;
     border-radius: 8px;
+
     }
    
     .real-hubspot img{
@@ -300,4 +303,77 @@ gap: 110px;
         color: #6B7280;
     } 
 
-    
+    .real-rightcolumn-top {
+        background-color: white;
+        width: 355px;
+        height: 235px;
+        padding: 23px 0px 23px 23px;
+     
+    border-radius: 8px;
+    }
+    .real-rightcolumn-top img:nth-child(1){
+       width: 75px;
+    }
+    .real-rightcolumn-top .real-airbnb > img {
+        width: 12px;
+        height: 10px;
+        opacity: 0.4;
+      }
+      .real-rightcolumn-top .real-airbnb{
+        display: flex;
+        gap: 10px;
+        padding-top: 20px;
+      }
+      .real-rightcolumn-top .real-airbnb p{
+        line-height: 22px;
+      }
+      .real-rightcolumn-top .real-airbnb p:nth-of-type(1){
+        font-size: 13px;
+        width: 280px;
+      }
+      .real-rightcolumn-top .real-airbnb h5{
+        padding-top: 20px;
+      }
+      .real-rightcolumn-top .real-airbnb p:nth-of-type(2){
+        font-size: 11px;
+        width: 280px;
+        color: #6B7280;
+      }
+
+      .real-rightcolumn-bottom {
+        background-color: white;
+        width: 275px;
+        height: 191px;
+        padding: 23px 0px 23px 23px;
+       
+    border-radius: 8px;
+    margin-top: 23px;
+    }
+    .real-rightcolumn-bottom img:nth-child(1){
+       width: 75px;
+    }
+    .real-rightcolumn-bottom .real-strapi > img {
+        width: 12px;
+        height: 10px;
+        opacity: 0.4;
+      }
+      .real-rightcolumn-bottom .real-strapi{
+        display: flex;
+        gap: 10px;
+        padding-top: 20px;
+      }
+      .real-rightcolumn-bottom .real-strapi p{
+        line-height: 22px;
+      }
+      .real-rightcolumn-bottom .real-strapi p:nth-of-type(1){
+        font-size: 13px;
+        width: 209px;
+      }
+      .real-rightcolumn-bottom .real-strapi h5{
+        padding-top: 20px;
+      }
+      .real-rightcolumn-bottom .real-strapi p:nth-of-type(2){
+        font-size: 11px;
+        width: 280px;
+        color: #6B7280;
+      }
